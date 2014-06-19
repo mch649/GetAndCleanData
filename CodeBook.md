@@ -8,74 +8,74 @@
  
  CODEBOOK  
 
- "subject"  
- "activity"  
- "tBodyAcc_X_mean"  
- "tBodyAcc_Y_mean"  
- "tBodyAcc_Z_mean"  
- "tBodyAcc_X_std"  
- "tBodyAcc_Y_std"  
- "tBodyAcc_Z_std"  
- "tGravityAcc_X_mean"  
- "tGravityAcc_Y_mean"  
- "tGravityAcc_Z_mean"  
- "tGravityAcc_X_std"       
- "tGravityAcc_Y_std"  
- "tGravityAcc_Z_std"  
- "tBodyAccJerk_X_mean"        
- "tBodyAccJerk_Y_mean"  
- "tBodyAccJerk_Z_mean"  
- "tBodyAccJerk_X_std"      
- "tBodyAccJerk_Y_std"  
- "tBodyAccJerk_Z_std"  
- "tBodyGyro_X_mean"       
- "tBodyGyro_Y_mean"  
- "tBodyGyro_Z_mean"  
- "tBodyGyro_X_std"         
- "tBodyGyro_Y_std"  
- "tBodyGyro_Z_std"  
- "tBodyGyroJerk_X_mean"  
- "tBodyGyroJerk_Y_mean"  
- "tBodyGyroJerk_Z_mean"  
- "tBodyGyroJerk_X_std"     
- "tBodyGyroJerk_Y_std"  
- "tBodyGyroJerk_Z_std"  
- "tBodyAccMag_mean"      
- "tBodyAccMag_std"  
- "tGravityAccMag_mean"  
- "tGravityAccMag_std"      
- "tBodyAccJerkMag_mean"  
- "tBodyAccJerkMag_std"  
- "tBodyGyroMag_mean"      
- "tBodyGyroMag_std"  
- "tBodyGyroJerkMag_mean"  
- "tBodyGyroJerkMag_std"    
- "fBodyAcc_X_mean"  
- "fBodyAcc_Y_mean"  
- "fBodyAcc_Z_mean"          
- "fBodyAcc_X_std"  
- "fBodyAcc_Y_std"  
- "fBodyAcc_Z_std"           
- "fBodyAccJerk_X_mean"  
- "fBodyAccJerk_Y_mean"  
- "fBodyAccJerk_Z_mean"      
- "fBodyAccJerk_X_std"  
- "fBodyAccJerk_Y_std"  
- "fBodyAccJerk_Z_std"       
- "fBodyGyro_X_mean"  
- "fBodyGyro_Y_mean"  
- "fBodyGyro_Z_mean"         
- "fBodyGyro_X_std"  
- "fBodyGyro_Y_std"  
- "fBodyGyro_Z_std"          
- "fBodyAccMag_mean"  
- "fBodyAccMag_std"  
- "fBodyBodyAccJerkMag_mean"  
- "fBodyBodyAccJerkMag_std"  
- "fBodyBodyGyroMag_mean"  
- "fBodyBodyGyroMag_std"    
- "fBodyBodyGyroJerkMag_mean"  
- "fBodyBodyGyroJerkMag_std"  
+ "subject"  integer, length: 1  
+ "activity"  integer, length: 1  
+ "tBodyAcc_X_mean"  numeric(double -scientific notation), length: 15  
+ "tBodyAcc_Y_mean"  numeric(double -scientific notation), length: 15  
+ "tBodyAcc_Z_mean"  numeric(double -scientific notation), length: 15  
+ "tBodyAcc_X_std"  numeric(double -scientific notation), length: 15  
+ "tBodyAcc_Y_std"  numeric(double -scientific notation), length: 15  
+ "tBodyAcc_Z_std"  numeric(double -scientific notation), length: 15  
+ "tGravityAcc_X_mean"  numeric(double -scientific notation), length: 15  
+ "tGravityAcc_Y_mean"  numeric(double -scientific notation), length: 15  
+ "tGravityAcc_Z_mean"  numeric(double -scientific notation), length: 15  
+ "tGravityAcc_X_std"  numeric(double -scientific notation), length: 15  
+ "tGravityAcc_Y_std"  numeric(double -scientific notation), length: 15  
+ "tGravityAcc_Z_std"  numeric(double -scientific notation), length: 15  
+ "tBodyAccJerk_X_mean"  numeric(double -scientific notation), length: 15  
+ "tBodyAccJerk_Y_mean"  numeric(double -scientific notation), length: 15  
+ "tBodyAccJerk_Z_mean"  numeric(double -scientific notation), length: 15  
+ "tBodyAccJerk_X_std"  numeric(double -scientific notation), length: 15  
+ "tBodyAccJerk_Y_std"  numeric(double -scientific notation), length: 15  
+ "tBodyAccJerk_Z_std"  numeric(double -scientific notation), length: 15  
+ "tBodyGyro_X_mean"  numeric(double -scientific notation), length: 15  
+ "tBodyGyro_Y_mean"  numeric(double -scientific notation), length: 15  
+ "tBodyGyro_Z_mean"  numeric(double -scientific notation), length: 15  
+ "tBodyGyro_X_std"  numeric(double -scientific notation), length: 15  
+ "tBodyGyro_Y_std"  numeric(double -scientific notation), length: 15  
+ "tBodyGyro_Z_std"  numeric(double -scientific notation), length: 15  
+ "tBodyGyroJerk_X_mean"  numeric(double -scientific notation), length: 15  
+ "tBodyGyroJerk_Y_mean"  numeric(double -scientific notation), length: 15  
+ "tBodyGyroJerk_Z_mean"  numeric(double -scientific notation), length: 15  
+ "tBodyGyroJerk_X_std"  numeric(double -scientific notation), length: 15  
+ "tBodyGyroJerk_Y_std"  numeric(double -scientific notation), length: 15  
+ "tBodyGyroJerk_Z_std"  numeric(double -scientific notation), length: 15  
+ "tBodyAccMag_mean"  numeric(double -scientific notation), length: 15  
+ "tBodyAccMag_std"  numeric(double -scientific notation), length: 15  
+ "tGravityAccMag_mean"  numeric(double -scientific notation), length: 15  
+ "tGravityAccMag_std"  numeric(double -scientific notation), length: 15  
+ "tBodyAccJerkMag_mean"  numeric(double -scientific notation), length: 15  
+ "tBodyAccJerkMag_std"  numeric(double -scientific notation), length: 15  
+ "tBodyGyroMag_mean"  numeric(double -scientific notation), length: 15  
+ "tBodyGyroMag_std"  numeric(double -scientific notation), length: 15  
+ "tBodyGyroJerkMag_mean"  numeric(double -scientific notation), length: 15  
+ "tBodyGyroJerkMag_std"  numeric(double -scientific notation), length: 15  
+ "fBodyAcc_X_mean"  numeric(double -scientific notation), length: 15  
+ "fBodyAcc_Y_mean"  numeric(double -scientific notation), length: 15  
+ "fBodyAcc_Z_mean"  numeric(double -scientific notation), length: 15  
+ "fBodyAcc_X_std"  numeric(double -scientific notation), length: 15  
+ "fBodyAcc_Y_std"  numeric(double -scientific notation), length: 15  
+ "fBodyAcc_Z_std"  numeric(double -scientific notation), length: 15  
+ "fBodyAccJerk_X_mean"  numeric(double -scientific notation), length: 15  
+ "fBodyAccJerk_Y_mean"  numeric(double -scientific notation), length: 15  
+ "fBodyAccJerk_Z_mean"  numeric(double -scientific notation), length: 15  
+ "fBodyAccJerk_X_std"  numeric(double -scientific notation), length: 15  
+ "fBodyAccJerk_Y_std"  numeric(double -scientific notation), length: 15  
+ "fBodyAccJerk_Z_std"  numeric(double -scientific notation), length: 15  
+ "fBodyGyro_X_mean"  numeric(double -scientific notation), length: 15  
+ "fBodyGyro_Y_mean"  numeric(double -scientific notation), length: 15  
+ "fBodyGyro_Z_mean"  numeric(double -scientific notation), length: 15  
+ "fBodyGyro_X_std"  numeric(double -scientific notation), length: 15  
+ "fBodyGyro_Y_std"  numeric(double -scientific notation), length: 15  
+ "fBodyGyro_Z_std"  numeric(double -scientific notation), length: 15  
+ "fBodyAccMag_mean"  numeric(double -scientific notation), length: 15  
+ "fBodyAccMag_std"  numeric(double -scientific notation), length: 15  
+ "fBodyBodyAccJerkMag_mean"  numeric(double -scientific notation), length: 15  
+ "fBodyBodyAccJerkMag_std"  numeric(double -scientific notation), length: 15  
+ "fBodyBodyGyroMag_mean"  numeric(double -scientific notation), length: 15  
+ "fBodyBodyGyroMag_std"  numeric(double -scientific notation), length: 15  
+ "fBodyBodyGyroJerkMag_mean"  numeric(double -scientific notation), length: 15  
+ "fBodyBodyGyroJerkMag_std"  numeric(double -scientific notation), length: 15  
 
 
 
