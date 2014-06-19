@@ -8,8 +8,8 @@
  
  CODEBOOK  
 
- "subject"  <integer, length: 1>  
- "activity"  <integer, length: 1>  
+ "subject"  - integer, length: 1  
+ "activity"  - integer, length: 1  
  "tBodyAcc_X_mean"  <numeric(double -scientific notation), length: 15>  
  "tBodyAcc_Y_mean"  <numeric(double -scientific notation), length: 15>  
  "tBodyAcc_Z_mean"  <numeric(double -scientific notation), length: 15>  
