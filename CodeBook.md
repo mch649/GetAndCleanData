@@ -3,7 +3,7 @@
  'mean()' and 'std()' with 'activity' and 'subject' columns added from other data files.
  
  CODEBOOK  
- column list included in analysis:  
+
  "subject"  
  "activity"  
  "tBodyAcc_X_mean"  
