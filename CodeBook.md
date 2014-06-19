@@ -80,13 +80,13 @@
 
 
 <h4>DATA SOURCE</h4>  
-  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip<br/>  
+ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip<br/>
   
 <h4>REFERENCES</h4>  
-  http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/<br/>  
-  http://dss.princeton.edu/online_help/analysis/codebook.htm<br/>
-  http://www.r-bloggers.com/reading-codebook-files-in-r/<br/>
-  http://www.inside-r.org/packages/cran/memisc/docs/codebook<br/>  
-  https://daringfireball.net/projects/markdown/basics<br/>  
+http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/<br/>
+http://dss.princeton.edu/online_help/analysis/codebook.htm<br/>
+http://www.r-bloggers.com/reading-codebook-files-in-r/<br/>
+http://www.inside-r.org/packages/cran/memisc/docs/codebook<br/>
+https://daringfireball.net/projects/markdown/basics<br/>
   
   
