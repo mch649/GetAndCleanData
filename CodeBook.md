@@ -8,7 +8,7 @@ i interpreted the assignment to mean include only 'test' and 'train' files with 
  
 <h4>CODEBOOK</h4>  
 
- subject:     integer, length: 1  
+ subject&ntsp;&ntsp;&ntsp;integer, length: 1  
  activity:     integer, length: 1  
  tBodyAcc_X_mean:     numeric(double, scientific notation), length: 15  
  tBodyAcc_Y_mean:     numeric(double, scientific notation), length: 15  
