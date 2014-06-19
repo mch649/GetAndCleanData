@@ -1,12 +1,12 @@
  
-<h2>SUMMARY</h2>  
+<h3>SUMMARY</h3>  
  i interpreted the assignment to mean include only 'test' and 'train' files with columns containing
  'mean()' and 'std()' with 'activity' and 'subject' columns added from other data files.
  
-<h2>STUDY DESIGN</h2>  
+<h3>STUDY DESIGN</h3>  
  
  
-<h2>CODEBOOK</h2>  
+<h3>CODEBOOK</h3>  
 
  subject:     integer, length: 1  
  activity:     integer, length: 1  
@@ -79,10 +79,10 @@
 
 
 
-<h2>DATA SOURCE</h2>  
+<h3>DATA SOURCE</h3>  
   https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
   
-<h2>REFERENCES</h2>  
+<h3>REFERENCES</h3>  
   http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/  
   http://dss.princeton.edu/online_help/analysis/codebook.htm<br>
   http://www.r-bloggers.com/reading-codebook-files-in-r/<br>
