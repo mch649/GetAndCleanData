@@ -1,7 +1,7 @@
  
 <h4>SUMMARY</h4>  
- i interpreted the assignment to mean include only 'test' and 'train' files with columns containing
- 'mean()' and 'std()' with 'activity' and 'subject' columns added from other data files.
+i interpreted the assignment to mean include only 'test' and 'train' files with columns containing
+'mean()' and 'std()' with 'activity' and 'subject' columns added from other data files.
  
 <h4>STUDY DESIGN</h4>  
  
