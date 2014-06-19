@@ -36,7 +36,9 @@
 References
 
   http://dss.princeton.edu/online_help/analysis/codebook.htm
+  
   http://www.r-bloggers.com/reading-codebook-files-in-r/
+  
   http://www.inside-r.org/packages/cran/memisc/docs/codebook
   
   
