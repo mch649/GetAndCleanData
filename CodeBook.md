@@ -1,4 +1,4 @@
-Data Set Information:
+<h4>Data Set Information</h4>
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
 
@@ -19,7 +19,7 @@ Associated Tasks: Classification, Clustering<br/>
 Missing Values? N/A<br/>
 Number of Web Hits: 92623<br/>
 
-Attribute Information:
+<h4/>Attribute Information</h4>
 
 For each record in the dataset it is provided:
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
@@ -29,14 +29,14 @@ For each record in the dataset it is provided:
 - An identifier of the subject who carried out the experiment. 
  
 
-<h4>SUMMARY</h4>  
+<h4>Summary</h4>  
 i interpreted the assignment to mean include only 'test' and 'train' files with columns containing
 'mean()' and 'std()' with 'activity' and 'subject' columns added from other data files.
  
-<h4>STUDY DESIGN</h4>  
+<h4>Study Design</h4>  
  
  
-<h4>CODEBOOK</h4>  
+<h4>CodeBook</h4>  
 
  subject&nbsp;&nbsp;&nbsp;&nbsp;integer, length: 1  
  activity&nbsp;&nbsp;&nbsp;&nbsp;integer, length: 1  
@@ -109,11 +109,11 @@ i interpreted the assignment to mean include only 'test' and 'train' files with 
 
 
 
-<h4>DATA SOURCE</h4>  
+<h4>Data Source</h4>  
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip<br/>
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
   
-<h4>REFERENCES</h4>  
+<h4>References</h4>  
 http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/<br/>
 http://dss.princeton.edu/online_help/analysis/codebook.htm<br/>
 http://www.r-bloggers.com/reading-codebook-files-in-r/<br/>
