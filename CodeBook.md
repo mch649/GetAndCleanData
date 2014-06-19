@@ -1,6 +1,10 @@
  
+ SUMMARY  
  i interpreted the assignment to mean include only 'test' and 'train' files with columns containing
  'mean()' and 'std()' with 'activity' and 'subject' columns added from other data files.
+ 
+ STUDY DESIGN  
+ 
  
  CODEBOOK  
 
