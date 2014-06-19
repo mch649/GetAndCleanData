@@ -2,7 +2,8 @@
  i interpreted the assignment to mean include only 'test' and 'train' files with columns containing
  'mean()' and 'std()' with 'activity' and 'subject' columns added from other data files.
  
- column list included in analysis:
+ CODEBOOK  
+ column list included in analysis:  
  "subject"  
  "activity"  
  "tBodyAcc_X_mean"  
