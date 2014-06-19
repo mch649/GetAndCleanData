@@ -79,9 +79,11 @@
 
 
 
-References
-
+DATA SOURCE  
   http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/  
+  
+  
+REFERENCES    
   http://dss.princeton.edu/online_help/analysis/codebook.htm<br>
   http://www.r-bloggers.com/reading-codebook-files-in-r/<br>
   http://www.inside-r.org/packages/cran/memisc/docs/codebook
