@@ -35,8 +35,7 @@ i interpreted the assignment to mean include only 'test' and 'train' files with 
 'mean()' and 'std()' with 'activity' and 'subject' columns added from other data files.
  
 
-<h4>CodeBook</h4>  
-
+<h4>Data columns</h4>  
  subject&nbsp;&nbsp;&nbsp;&nbsp;integer, length: 1  
  activity&nbsp;&nbsp;&nbsp;&nbsp;integer, length: 1  
  tBodyAcc_X_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
