@@ -100,11 +100,6 @@ For each record in the dataset it is provided:
  fBodyBodyGyroJerkMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
 
 
-
-<h4>Data Source</h4>  
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip<br/>
-<h6>Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012</h6>
-  
 <h4>References</h4>  
 http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/<br/>
 http://dss.princeton.edu/online_help/analysis/codebook.htm<br/>
@@ -113,5 +108,9 @@ http://www.inside-r.org/packages/cran/memisc/docs/codebook<br/>
 https://daringfireball.net/projects/markdown/basics<br/>
   
   
-Archive page last accessed: June 19, 2014<br/>
+<h4>Data Source</h4>  
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip<br/>
+<h6>Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012</h6>
+  
+<h6>Archive page last accessed: June 19, 2014</h6>
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#<br/>
