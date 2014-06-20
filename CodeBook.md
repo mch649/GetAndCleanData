@@ -36,8 +36,8 @@ i interpreted the assignment to mean include only 'test' and 'train' files with 
  
 
 <h4>Data columns</h4>  
- subject&nbsp;&nbsp;&nbsp;&nbsp;integer, length: 2  
- activity&nbsp;&nbsp;&nbsp;&nbsp;integer, length: 1  
+ subject&nbsp;&nbsp;&nbsp;&nbsp;numeric(integer), length: 2  
+ activity&nbsp;&nbsp;&nbsp;&nbsp;numeric(integer), length: 1  
  tBodyAcc_X_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
  tBodyAcc_Y_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
  tBodyAcc_Z_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
