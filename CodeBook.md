@@ -113,3 +113,5 @@ http://www.inside-r.org/packages/cran/memisc/docs/codebook<br/>
 https://daringfireball.net/projects/markdown/basics<br/>
   
   
+Archive page last accessed: June 19, 2014<br/>
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#<br/>
