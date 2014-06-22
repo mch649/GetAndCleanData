@@ -167,7 +167,7 @@ run_analysis <- function(){
     if(response == 'T'){
         write.table(tidydata,file="tidydata.tab",sep="\t",row.names=FALSE)
         extension <- "tab"
-    }else if (response == 'C'){
+    }else if(response == 'C'){
         write.table(tidydata,file="tidydata.csv",sep=",",row.names=FALSE)
         extension <- "csv"
     }else{
