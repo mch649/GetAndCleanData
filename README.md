@@ -36,4 +36,9 @@ This dataset is distributed AS-IS and no responsibility implied or explicit can 
 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
-<br/>page last accessed: June 21, 2014
+<br/>
+Thanks to the R community, the contributors at stackoverflow.com, statmethods.net, r-bloggers.com,
+and all the independant bloggers for their insights and creativity.
+
+<br/>
+page last accessed: June 21, 2014
