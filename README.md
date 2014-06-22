@@ -12,3 +12,22 @@ http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-bat
 
 
 
+Notes:
+The selection of which columns to use in the data set was determined by my interpretation of the instructions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Note:
+Most of the text in this reabme.md and in the codebook.md are taken stright from the Coursera assignment, or from the host page of the original data project. Proper attribution should be observed.
+
+page last accessed: June 21, 2014
