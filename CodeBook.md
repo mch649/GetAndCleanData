@@ -15,7 +15,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 <li>Number of Attributes: 561</li>
 <li>Date Donated: 2012-12-10</li>
 <li>Associated Tasks: Classification, Clustering</li>
-<li>Missing Values? N/A</li>
+<li>Missing Values: N/A</li>
 <li>Number of Web Hits: 92623</li>
 </ul>
 
