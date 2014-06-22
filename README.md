@@ -40,8 +40,7 @@ You should create one R script called run_analysis.R that does the following.
 Most of the text in this README.md and in the CodeBook.md are taken stright from the Coursera assignment, or from the host page of the original data project. Proper attribution should be observed.
 <br/>
 
-License:
-========
+<h5>License:</h5>
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
