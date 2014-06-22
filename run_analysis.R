@@ -32,6 +32,9 @@ run_analysis <- function(){
 
         The function is called simply: run_analysis().
         
+        Thanks to the R community, the contributors at stackoverflow.com, and all the independant bloggers
+        for their insights and creativity.
+        
     \n\n")
 
     cat("Pressing ENTER will complete the script, `Q` will quit.\n")
