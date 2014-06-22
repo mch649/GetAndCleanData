@@ -31,7 +31,7 @@ For each record in the dataset it is provided:
 
 
 <h4>Data set files</h4>
-<br/>The dataset includes the following files:<br/>
+The dataset includes the following files:<br/>
 'README.txt'  
 <ul>
 <li>'features_info.txt': Shows information about the variables used on the feature vector.</li>
