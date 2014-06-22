@@ -29,6 +29,29 @@ For each record in the dataset it is provided:
 <li>An identifier of the subject who carried out the experiment</li>
 </ul>
 
+
+<h4>Data set files</h4>
+The dataset includes the following files:
+=========================================
+'README.txt'  
+<ul>
+<li>'features_info.txt': Shows information about the variables used on the feature vector.</li>
+<li>'features.txt': List of all features.</li>
+<li>'activity_labels.txt': Links the class labels with their activity name.</li>
+<li>'train/X_train.txt': Training set.</li>
+<li>'train/y_train.txt': Training labels.</li>
+<li>'test/X_test.txt': Test set.</li>
+<li>'test/y_test.txt': Test labels.</li>
+</ul>
+<br/>The following files are available for the train and test data. Their descriptions are equivalent.<br/>
+<ul>
+<li>'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.</li> 
+<li>'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the <li>total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis.</li> 
+<li>'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration.</li> 
+<li>'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.</li>
+</ul>
+
+
 <h4>Data columns</h4>  
  subject&nbsp;&nbsp;&nbsp;&nbsp;numeric(integer), length: 2  
  activity&nbsp;&nbsp;&nbsp;&nbsp;numeric(integer), length: 1  
