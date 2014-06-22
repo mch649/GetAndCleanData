@@ -28,6 +28,7 @@ run_analysis <- function(){
         
         This helped me to check the data file on my Windows machine as double-clicking
         on the TAB or CSV data file conveniently loads the data into Excel.
+        Reminder: Excel may display data according to default format.
 
         The function is called simply: run_analysis().
         
