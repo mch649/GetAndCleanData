@@ -132,7 +132,8 @@ https://daringfireball.net/projects/markdown/basics<br/>
   
 <h4>Data Source</h4>  
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip<br/>
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#<br/>
+
 <h6>Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012</h6>
   
 <h6>Archive page last accessed: June 19, 2014</h6>
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#<br/>
