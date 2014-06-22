@@ -32,72 +32,72 @@ For each record in the dataset it is provided:
 <h4>Data columns</h4>  
  subject&nbsp;&nbsp;&nbsp;&nbsp;numeric(integer), length: 2  
  activity&nbsp;&nbsp;&nbsp;&nbsp;numeric(integer), length: 1  
- tBodyAcc_X_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyAcc_Y_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyAcc_Z_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyAcc_X_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyAcc_Y_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyAcc_Z_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tGravityAcc_X_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tGravityAcc_Y_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tGravityAcc_Z_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tGravityAcc_X_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tGravityAcc_Y_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tGravityAcc_Z_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyAccJerk_X_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyAccJerk_Y_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyAccJerk_Z_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyAccJerk_X_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyAccJerk_Y_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyAccJerk_Z_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyGyro_X_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyGyro_Y_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyGyro_Z_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyGyro_X_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyGyro_Y_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyGyro_Z_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyGyroJerk_X_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyGyroJerk_Y_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyGyroJerk_Z_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyGyroJerk_X_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyGyroJerk_Y_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyGyroJerk_Z_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyAccMag_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyAccMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tGravityAccMag_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tGravityAccMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyAccJerkMag_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyAccJerkMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyGyroMag_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyGyroMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyGyroJerkMag_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- tBodyGyroJerkMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyAcc_X_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyAcc_Y_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyAcc_Z_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyAcc_X_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyAcc_Y_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyAcc_Z_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyAccJerk_X_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyAccJerk_Y_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyAccJerk_Z_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyAccJerk_X_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyAccJerk_Y_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyAccJerk_Z_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyGyro_X_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyGyro_Y_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyGyro_Z_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyGyro_X_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyGyro_Y_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyGyro_Z_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyAccMag_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyAccMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyBodyAccJerkMag_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyBodyAccJerkMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyBodyGyroMag_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyBodyGyroMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyBodyGyroJerkMag_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
- fBodyBodyGyroJerkMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double, scientific notation), length: 15  
+ tBodyAcc_X_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyAcc_Y_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyAcc_Z_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyAcc_X_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyAcc_Y_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyAcc_Z_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tGravityAcc_X_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tGravityAcc_Y_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tGravityAcc_Z_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tGravityAcc_X_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tGravityAcc_Y_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tGravityAcc_Z_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyAccJerk_X_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyAccJerk_Y_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyAccJerk_Z_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyAccJerk_X_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyAccJerk_Y_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyAccJerk_Z_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyGyro_X_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyGyro_Y_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyGyro_Z_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyGyro_X_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyGyro_Y_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed   
+ tBodyGyro_Z_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyGyroJerk_X_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed    
+ tBodyGyroJerk_Y_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyGyroJerk_Z_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyGyroJerk_X_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed    
+ tBodyGyroJerk_Y_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyGyroJerk_Z_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyAccMag_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyAccMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tGravityAccMag_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tGravityAccMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyAccJerkMag_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyAccJerkMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyGyroMag_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyGyroMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyGyroJerkMag_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ tBodyGyroJerkMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double), length: 1.16, signed  
+ fBodyAcc_X_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyAcc_Y_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyAcc_Z_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyAcc_X_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyAcc_Y_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyAcc_Z_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyAccJerk_X_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyAccJerk_Y_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyAccJerk_Z_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyAccJerk_X_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyAccJerk_Y_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyAccJerk_Z_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyGyro_X_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyGyro_Y_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyGyro_Z_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyGyro_X_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyGyro_Y_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyGyro_Z_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyAccMag_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyAccMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyBodyAccJerkMag_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyBodyAccJerkMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyBodyGyroMag_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyBodyGyroMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyBodyGyroJerkMag_mean&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
+ fBodyBodyGyroJerkMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
 
 
 <h4>References</h4>  
