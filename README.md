@@ -37,6 +37,6 @@ You should create one R script called run_analysis.R that does the following.
 
 
 <br/>Note:<br/>
-Most of the text in this reabme.md and in the codebook.md are taken stright from the Coursera assignment, or from the host page of the original data project. Proper attribution should be observed.
+Most of the text in this readme.md and in the codebook.md are taken stright from the Coursera assignment, or from the host page of the original data project. Proper attribution should be observed.
 
 <br/>page last accessed: June 21, 2014
