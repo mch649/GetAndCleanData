@@ -1,7 +1,6 @@
-GetAndCleanData
-===============
+<h3>GetAndCleanData</h3>
 
-Student repository for Coursera.com online MOOC, 'Getting and Cleaning Data', June 2014
+A course project for Coursera.com online MOOC, 'Getting and Cleaning Data', June 2014<br/>
 
 
 
@@ -22,18 +21,6 @@ You should create one R script called run_analysis.R that does the following.
 <li>Appropriately labels the data set with descriptive variable names.</li> 
 <li>Creates a second, independent tidy data set with the average of each variable for each activity and each subject.</li>
 </ol>    
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <br/>Note:<br/>
