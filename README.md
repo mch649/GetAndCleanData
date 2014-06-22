@@ -1,4 +1,4 @@
-<h3>GetAndCleanData</h3>
+<h4>GetAndCleanData</h4>
 
 A course project for Coursera.com online MOOC, 'Getting and Cleaning Data', June 2014<br/>
 <br/>
