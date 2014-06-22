@@ -85,7 +85,6 @@ run_analysis <- function(){
     X_test_data["subject"] <- subject_test_data  # add `subject` column for dataset 'test'
     X_test_data["activity"] <- y_test_data       # add `activity` column for dataset 'test'
 
-
     # `train` data
     X_train_data <- read.table("./UCI HAR Dataset/train/X_train.txt")
     y_train_data <- read.table("./UCI HAR Dataset/train/y_train.txt")
@@ -95,7 +94,6 @@ run_analysis <- function(){
     subject_train_data <- read.table("./UCI HAR Dataset/train/subject_train.txt")
     X_train_data["subject"] <- subject_train_data  # add `subject` column for dataset 'train'
     X_train_data["activity"] <- y_train_data       # add `activity` column for dataset 'train'
-
 
     # merge both datasets together
     # contains all 561 columns of read data plus 'subject' and 'activity' data
