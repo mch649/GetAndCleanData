@@ -72,14 +72,14 @@ run_analysis <- function(){
 
     # `features.txt` data for column selection and naming
     features_data <- read.table("./UCI HAR Dataset/features.txt")
-    features <-as.matrix(features_data$V2)
+    features <- as.matrix(features_data$V2)
     f <- as.vector(features,mode="character")
 
     # `test` data
     X_test_data <- read.table("./UCI HAR Dataset/test/X_test.txt")
     y_test_data <- read.table("./UCI HAR Dataset/test/y_test.txt")
     # apply originial column names
-    colnames(X_test_data)<- features
+    colnames(X_test_data) <- features
     # append additional data column
     subject_test_data <- read.table("./UCI HAR Dataset/test/subject_test.txt")
     X_test_data["subject"] <- subject_test_data  # add `subject` column for dataset 'test'
@@ -110,15 +110,15 @@ run_analysis <- function(){
     merged_data_names <- names(merged_data)
 
     # eliminate unwanted column name characters and rename selected columns
-    column_names <- gsub("()", "", merged_data_names, fixed = TRUE)
-    column_names <- gsub("-mean", "_mean", column_names, fixed = TRUE)
-    column_names <- gsub("-std", "_std", column_names, fixed = TRUE)
-    column_names <- gsub("_mean-X", "_X_mean", column_names, fixed = TRUE)
-    column_names <- gsub("_mean-Y", "_Y_mean", column_names, fixed = TRUE)
-    column_names <- gsub("_mean-Z", "_Z_mean", column_names, fixed = TRUE)
-    column_names <- gsub("_std-X", "_X_std", column_names, fixed = TRUE)
-    column_names <- gsub("_std-Y", "_Y_std", column_names, fixed = TRUE)
-    column_names <- gsub("_std-Z", "_Z_std", column_names, fixed = TRUE)
+    column_names <- gsub("()","",merged_data_names,fixed=TRUE)
+    column_names <- gsub("-mean","_mean",column_names,fixed=TRUE)
+    column_names <- gsub("-std","_std",column_names,fixed=TRUE)
+    column_names <- gsub("_mean-X","_X_mean",column_names,fixed=TRUE)
+    column_names <- gsub("_mean-Y","_Y_mean",column_names,fixed=TRUE)
+    column_names <- gsub("_mean-Z","_Z_mean",column_names,fixed=TRUE)
+    column_names <- gsub("_std-X","_X_std",column_names,fixed=TRUE)
+    column_names <- gsub("_std-Y","_Y_std",column_names,fixed=TRUE)
+    column_names <- gsub("_std-Z","_Z_std",column_names,fixed=TRUE)
 
     # reapply simplified column names to merged data set
     colnames(merged_data) <- column_names
@@ -166,13 +166,13 @@ run_analysis <- function(){
     response <- toupper(readline("Enter a 'T', 'C' or just press ENTER [T/C/ENTER]: "))
     
     if(response == 'T'){
-        write.table(tidydata,file="tidydata.tab",sep="\t", row.names = F)
+        write.table(tidydata,file="tidydata.tab",sep="\t",row.names=FALSE)
         extension <- "tab"
     }else if (response == 'C'){
-        write.table(tidydata,file="tidydata.csv",sep=",", row.names = F)
+        write.table(tidydata,file="tidydata.csv",sep=",",row.names=FALSE)
         extension <- "csv"
     }else{
-        write.table(tidydata,file="tidydata.txt",sep=" ", row.names = F)
+        write.table(tidydata,file="tidydata.txt",sep=" ",row.names=FALSE)
         extension <- "txt"
     }#if
         
@@ -180,7 +180,7 @@ run_analysis <- function(){
     
     # 6) Complete.  
     cat("\n\nStep 6. Script completed. There should be a file in your workspace named: ",
-    paste('tidydata',extension, sep='.'))
+    paste('tidydata',extension,sep='.'))
     
 }#run_analysis()
 
