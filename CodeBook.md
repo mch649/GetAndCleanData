@@ -122,7 +122,7 @@ The dataset includes the following files:<br/>
  fBodyBodyGyroJerkMag_std&nbsp;&nbsp;&nbsp;&nbsp;numeric(double),  length: 1.16, signed  
 
 <h4>Processing</h4>
-All processing for this project performed by the tun_analysis.R script available for download
+All processing for this project performed by the 'run_analysis.R' script available for download
 on this site. The best explanation for the script's code is in the script comments.
 The script performs operations in a straight-forward manner.
 
