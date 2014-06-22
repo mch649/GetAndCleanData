@@ -55,22 +55,22 @@ run_analysis <- function(){
         print("takes approx. 5 minutes on my pc")
         download.file(url,destfile=filename,method="curl")
     }else{
-        print(paste("file:",filename," , already exists."))
+        print(paste("file:",filename,", already exists."))
     }#if
 
     # unzip
     if(!foldername %in% dir()){
         unzip(filename)
     }else{
-        print(paste("folder:",foldername," , already exists."))
+        print(paste("folder:",foldername,", already exists."))
     }#if
 
 
 
     # 1) Read and merge the training and the test sets to create one data set.
-    cat("\n\nStep 1. Read data files and merge into a single dataset from `test` and `train` sets.\n")
+    cat("\n\nStep 1. Read data files and merge into a single dataset of `test` and `train` sets.\n")
 
-    # `features.txt` data for column selection and naming
+    # `features.txt` data for column selection and naming; all 561 column names
     features_data <- read.table("./UCI HAR Dataset/features.txt")
     features <- as.matrix(features_data$V2)
     f <- as.vector(features,mode="character")
@@ -78,9 +78,9 @@ run_analysis <- function(){
     # `test` data
     X_test_data <- read.table("./UCI HAR Dataset/test/X_test.txt")
     y_test_data <- read.table("./UCI HAR Dataset/test/y_test.txt")
-    # apply originial column names
+    # apply original column names
     colnames(X_test_data) <- features
-    # append additional data column
+    # append additional data columns
     subject_test_data <- read.table("./UCI HAR Dataset/test/subject_test.txt")
     X_test_data["subject"] <- subject_test_data  # add `subject` column for dataset 'test'
     X_test_data["activity"] <- y_test_data       # add `activity` column for dataset 'test'
@@ -91,14 +91,14 @@ run_analysis <- function(){
     y_train_data <- read.table("./UCI HAR Dataset/train/y_train.txt")
     # apply originial column names
     colnames(X_train_data)<- features
-    # append additional data column
+    # append additional data columns
     subject_train_data <- read.table("./UCI HAR Dataset/train/subject_train.txt")
     X_train_data["subject"] <- subject_train_data  # add `subject` column for dataset 'train'
     X_train_data["activity"] <- y_train_data       # add `activity` column for dataset 'train'
 
 
     # merge both datasets together
-    # contains all 563 columns of read data
+    # contains all 561 columns of read data plus 'subject' and 'activity' data
     merged_data <- merge(X_test_data,X_train_data,all=TRUE)
 
 
@@ -106,7 +106,7 @@ run_analysis <- function(){
     # 2) Work on column name simplification and column selection for analysis.
     cat("\n\nStep 2. Work on column name simplification and column selection for analysis.\n")
 
-    # collect original column names
+    # collect column names
     merged_data_names <- names(merged_data)
 
     # eliminate unwanted column name characters and rename selected columns
@@ -126,6 +126,7 @@ run_analysis <- function(){
     # eliminate columns with `meanFreq`
     column_names_longlist <- column_names[grep("-mean()|-mean()-X|-mean()-Y|-mean()-Z|-std()|-std()-X|-std()-Y|-std()-Z",f)]
     column_names_freqlist <- column_names[grep("-meanFreq()|-meanFreq()-X|-meanFreq()-Y|-meanFreq()-Z",f)]
+    # difference list will the list of selected columns to use for tidy data
     column_names_difflist <- setdiff(column_names_longlist,column_names_freqlist)
     column_names_difflist[67] <- "subject"
     column_names_difflist[68] <- "activity"
@@ -133,7 +134,7 @@ run_analysis <- function(){
     # select desired columns by names that include `mean`, `std`, `activity` and `subject`
     merged_data <- merged_data[,column_names_difflist]
     
-    #reorganize columns; place subject and activity as first 2 columns
+    # reorganize columns; place subject and activity as first 2 columns
     mydata <- merged_data[c(67:68,1:66)]
 
     # dump unnecessary data - free memory
@@ -151,7 +152,7 @@ run_analysis <- function(){
 
 
     # 4) Create a second, independent tidy data set with the average of
-    #    each variable for each activity and each subject. Write to file.
+    #    each variable for each activity and each subject.
     cat("\n\nStep 4. Run `melt` and `dcast` on data to create `tidy` output text.\n")
 
     meltdata <- melt(mydata,c("subject","activity"),measure.vars=colnames(mydata)[3:68])
