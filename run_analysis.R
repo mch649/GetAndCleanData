@@ -15,7 +15,7 @@ run_analysis <- function(){
         This R script will take a minute or so to (re)run if you have already
         downloaded the data sets. Otherwise it may take as long as on my machine
         - approximately 5 minutes. Bear in mind that downloading a file approx. 61Mb in
-        length may be time consuming as error prone - you may have to download it manually
+        length may be time consuming and error prone - you may have to download it manually
         and unzip it into the selected folder yourself.
         The script is divided into steps 0-6. Data will be downloaded from the
         hard-coded URL to your current workspace, unzipped and processed using 
