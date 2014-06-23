@@ -71,14 +71,14 @@ run_analysis <- function(){
         print("takes approx. 5 minutes on my pc")
         download.file(url,destfile=filename,method="curl")
     }else{
-        print(paste("file:",filename," , already exists."))
+        print(paste("file:",filename,", already exists."))
     }#if
 
     # unzip
     if(!foldername %in% dir()){
         unzip(filename)
     }else{
-        print(paste("folder:",foldername," , already exists."))
+        print(paste("folder:",foldername,", already exists."))
     }#if
 
 
