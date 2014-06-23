@@ -200,7 +200,7 @@ run_analysis <- function(){
 
     ## 6) Complete.
     cat("\n\nStep 6. Script completed. There should be a file in your workspace named: ",
-    paste('tidydata',extension, sep='.'))
+    paste('tidydata',extension,sep='.'))
 
 }#run_analysis()
 
