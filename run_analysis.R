@@ -7,7 +7,7 @@ run_analysis <- function(){
 
         The purpose of this script is to demonstrate how to use `tidy data` 
         techniques, as shown in Coursera's online Data Science class,
-        \"Getting and Cleaning Data\".\n
+        \"Getting and Cleaning Data\", June 2014.\n
 
         Except for a prompt to continue and another prompt at the script end for
         choice of file format, the script is completely automated.\n
