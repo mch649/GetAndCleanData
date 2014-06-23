@@ -41,8 +41,23 @@ run_analysis <- function(){
     response <- toupper(readline("Press ENTER to continue, Q to quit: "))
     if(response == "Q"){ cat("Goodbye"); stop() }#if
     
-    require(utils)
-    require(reshape2)
+    
+    
+    # load / install required packages
+    if(!require("utils")){
+        install.packages("utils")
+        require(utils)
+    }else{
+        require("utils")
+    }#if
+
+    if(!require("reshape2")){
+        install.packages("reshape2")
+        require(reshape2)
+    }else{
+        require("reshape2")
+    }#if
+    
     
     
     # 0) download and unzip dataset from internet source into workspace
