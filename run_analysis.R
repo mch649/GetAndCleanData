@@ -126,15 +126,15 @@ run_analysis <- function(){
     merged_data_names <- names(merged_data)
 
     # eliminate unwanted column name characters and rename selected columns
-    column_names <- gsub("()", "", merged_data_names,fixed=TRUE)
-    column_names <- gsub("-mean", "_mean", column_names,fixed=TRUE)
-    column_names <- gsub("-std", "_std", column_names,fixed=TRUE)
-    column_names <- gsub("_mean-X", "_X_mean", column_names,fixed=TRUE)
-    column_names <- gsub("_mean-Y", "_Y_mean", column_names,fixed=TRUE)
-    column_names <- gsub("_mean-Z", "_Z_mean", column_names,fixed=TRUE)
-    column_names <- gsub("_std-X", "_X_std", column_names,fixed=TRUE)
-    column_names <- gsub("_std-Y", "_Y_std", column_names,fixed=TRUE)
-    column_names <- gsub("_std-Z", "_Z_std", column_names,fixed=TRUE)
+    column_names <- gsub("()", "",merged_data_names,fixed=TRUE)
+    column_names <- gsub("-mean", "_mean",column_names,fixed=TRUE)
+    column_names <- gsub("-std", "_std",column_names,fixed=TRUE)
+    column_names <- gsub("_mean-X", "_X_mean",column_names,fixed=TRUE)
+    column_names <- gsub("_mean-Y", "_Y_mean",column_names,fixed=TRUE)
+    column_names <- gsub("_mean-Z", "_Z_mean",column_names,fixed=TRUE)
+    column_names <- gsub("_std-X", "_X_std",column_names,fixed=TRUE)
+    column_names <- gsub("_std-Y", "_Y_std",column_names,fixed=TRUE)
+    column_names <- gsub("_std-Z", "_Z_std",column_names,fixed=TRUE)
 
     # reapply simplified column names to merged data set
     colnames(merged_data) <- column_names
