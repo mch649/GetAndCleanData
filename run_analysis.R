@@ -205,9 +205,9 @@ run_analysis <- function(){
 
 }#run_analysis()
 
-working_dir <- ""  # give a good workspace to use!
+#working_dir <- ""  # give a good workspace to use!
 
-if(working_dir != ""){
-    setwd(working_dir)
-    run_analysis()
-}#if
+#if(working_dir != ""){
+#    setwd(working_dir)
+#    run_analysis()
+#}#if
