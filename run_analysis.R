@@ -184,7 +184,7 @@ run_analysis <- function(){
     cat("\n\nStep 5. Select a data format for the output file.\n")
 
     print("Would you like a TAB, COMMA, or SPACE delimited output file?")
-    response <- toupper(readline("Enter a 'T', 'C' or just press ENTER [T/C/ENTER]: "))
+    response <- toupper(readline("Enter a 'T', 'C' or press ENTER [T/C/ENTER]: "))
 
     if(response == 'T'){
         write.table(tidydata,file="tidydata.tab",sep="\t",row.names=FALSE)
