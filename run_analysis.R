@@ -157,7 +157,8 @@ run_analysis <- function(){
     #write.table(codebook_mydata,file="codebook_mydata.txt",sep=" ", row.names = F)
 
     # dump unnecessary data - free memory
-    rm(features_data,features,f,X_test_data,y_test_data,X_train_data,y_train_data,subject_test_data,subject_train_data,merged_data_names,column_names,merged_data)
+    rm(features_data,features,f,X_test_data,y_test_data,X_train_data,y_train_data,subject_test_data,
+        subject_train_data,merged_data_names,column_names,merged_data)
 
 
 
