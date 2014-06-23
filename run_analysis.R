@@ -186,13 +186,13 @@ run_analysis <- function(){
     response <- toupper(readline("Enter a 'T', 'C' or just press ENTER [T/C/ENTER]: "))
 
     if(response == 'T'){
-        write.table(tidydata,file="tidydata.tab",sep="\t", row.names=FALSE)
+        write.table(tidydata,file="tidydata.tab",sep="\t",row.names=FALSE)
         extension <- "tab"
     }else if(response == 'C'){
         write.table(tidydata,file="tidydata.csv",sep=",",row.names=FALSE)
         extension <- "csv"
     }else{
-        write.table(tidydata,file="tidydata.txt",sep=" ", row.names=FALSE)
+        write.table(tidydata,file="tidydata.txt",sep=" ",row.names=FALSE)
         extension <- "txt"
     }#if
 
