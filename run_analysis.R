@@ -172,7 +172,7 @@ run_analysis <- function(){
 
 
     ## 4) Create a second, independent tidy data set with the average of
-    #       each variable for each activity and each subject. Write to file.
+    #     each variable for each activity and each subject. Write to file.
     cat("\n\nStep 4. Run `melt` and `dcast` on data to create `tidy` output text.\n")
 
     meltdata <- melt(mydata,c("subject","activity"),measure.vars=colnames(mydata)[3:68])
